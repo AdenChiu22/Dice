@@ -5,9 +5,9 @@ void setup()
 void draw()
 { background (0);
  int sum = 0;
-for(int y = 0; y <= 600; y += 174)
+for(int y = 0; y <= 500; y += 174)
         {
-          for(int x = 0; x <= 600; x += 174)
+          for(int x = 0; x <= 500; x += 174)
           {
           Die bob = new Die(x, y);
           sum += bob.rolling;
